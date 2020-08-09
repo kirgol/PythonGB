@@ -3,5 +3,5 @@
 a = 'hello'
 b = 'world'
 print(a, b)
-num_1 = int(input())
-print('Вы ввели: ', num_1)
+user_num, user_str= int(input('Enter any number')), input('Enter any string')
+print(f'You entered: {user_num} and {user_str}')
